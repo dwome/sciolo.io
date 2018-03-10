@@ -1,0 +1,27 @@
+.taste-box{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.7) 100%), url(/assets/pic/books.jpg);
+  border-radius: 8px;
+  color: white;
+  font-family: 'Lato';
+  font-size: 48px;
+}
+
+.home-box{
+  background-color: rgb(236,236,239);;
+  height: 100%;
+}
+
+.titlecategorie{
+  font-family: 'Lato';
+  font-size: 30px;
+}
+
+.example-card {
+  max-width: 400px;
+}
+
+.mat-header{
+  background-color: aqua;
+}
