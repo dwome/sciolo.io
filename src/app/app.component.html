@@ -1,16 +1,47 @@
+<div class="global">
 <mat-toolbar class="header">
   <mat-toolbar-row>
     <span>Sciolo.io</span>
+
+    <button fxShow fxHide.lt-sm [routerLink]="['']" mat-button>Home</button>
+    <button fxShow fxHide.lt-sm [routerLink]="['categories']" mat-button>Categories</button>
+
+
     <span class="header-span"></span>
 
-      <mat-form-field class="header-searchbox">
-        <input matInput value="Sushi">
-      </mat-form-field>
 
-      <button [routerLink]="['']" mat-button>Home</button>
-    <button [routerLink]="['categories']" mat-button>Categories</button>
+    <div fxHide fxShow.lt-sm class="mobile_search">
+      <input type="search" id="search"/>
+    </div>
+
+
+
+    <div fxShow fxHide.lt-sm class="container-3">
+      <span class="icon"><i class="fa fa-search"></i></span>
+      <input type="search" id="search" placeholder="Search for Book, Author ..."/>
+    </div>
+
+    <span class="header-span"></span>
+
+    <div fxShow fxHide.lt-sm class="signup">
+      <button>SignUp</button>
+    </div>
+
+    <div fxShow fxHide.lt-sm class="login">
+      <button>Login</button>
+    </div>
+
+    <div fxHide fxShow.lt-sm  class="mobile_signuplogin">
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+        SignUp/Login
+      </button>
+    </div>
+
+
+
   </mat-toolbar-row>
 
 </mat-toolbar>
 
 <router-outlet></router-outlet>
+</div>

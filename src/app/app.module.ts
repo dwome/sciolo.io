@@ -10,12 +10,14 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { CategoriesComponent } from './categories/categories.component';
 import {FlexLayoutModule} from "@angular/flex-layout";
+import { BookdetailComponent } from './bookdetail/bookdetail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    BookdetailComponent
   ],
   imports: [
     BrowserModule,
