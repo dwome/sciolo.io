@@ -1,140 +1,141 @@
+.home-box{
+  background-color: rgb(236,236,239);
+}
+
+.desc{
+  width: 100%;
+}
+
+.rating{
+  background-color: rgb(255,255,255);
+  width: 100%;
+  box-shadow: 0 1px 2px 0 hsla(0,0%,0%,0.2);
+
+}
+.generalinfo{
+  background-color: rgb(255,255,255);
+  width: 100%;
+  box-shadow: 0 1px 2px 0 hsla(0,0%,0%,0.2);
+}
+
+.generalcontent{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img1 {
+  display: block;
+  max-height:300px;
+  width: auto;
+  height: auto;
+}
+
+.img1-md {
+  display: block;
+  max-height:200px;
+  width: auto;
+  height: auto;
+}
+
+.available{
+  background-color: rgb(255,255,255);
+  width: 100%;
+  box-shadow: 0 1px 2px 0 hsla(0,0%,0%,0.2);
+}
+
+.fonttext{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.fonttext-md{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.fontdesc{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: match-parent;
+}
+
+
+.fontdesc-md{
+  font-family: 'Libre Franklin';
+  font-size: 14px;
+  font-weight: 300;
+  text-align: match-parent;
+}
+
+
+.fontbold{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.fontbold-md{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.fontyear{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
 .taste-box{
   height: 100%;
   width: 100%;
- background-color: chocolate;
-  border-radius: 8px;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.7) 100%), url(/assets/pic/books.jpg);
+  border-radius: 3px;
   color: white;
   font-family: 'Lato';
   font-size: 48px;
 }
-.home-box{
-  background-color: rgb(236,236,239);;
-  height: 100%;
-}
 
-.titlecategorie{
-  font-family: 'Lato';
-  font-size: 30px;
-}
-
-.cardlayout {
-  max-width: 300px;
-  border-radius: 3%;
-}
-
-.mat-header{
-  color: white;
-  font-family: 'Lato';
-  font-size: 40px;
-}
-
-.container {
-  position: relative;
+.title-box{
   width: 100%;
+  background-color: white;
+  border-radius: 3px;
+  font-family: 'Libre Franklin';
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.top-box{
+background-color: rgb(255,255,255);
+width: 100%;
+box-shadow: 0 1px 2px 0 hsla(0,0%,0%,0.2);
+
 }
 
-.image {
-  display: block;
+.title-box-md{
+  padding-left: 10px;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0.75;
-  transition: .5s ease;
-  background-color: rgb(0,0,0);
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: white;
+.fonttitle-md{
+  font-family: 'Libre Franklin';
+  font-weight: 500;
   font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.centered {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
-.header-span{
-  flex: 1 1 auto;
+.fontyear-md{
+  font-family: 'Libre Franklin';
+  font-weight: 400;
+  font-size: 14px;
 }
 
-
-.font1{
-  font-family: 'Open Sans' !important;
-  font-weight: bold;
-  font-size: 12px !important;
+.fontgenre-md{
+  font-family: 'Libre Franklin';
+  font-weight: 400;
+  font-size: 14px;
 }
 
-.font2{
-  font-family: 'Open Sans' !important;
-  font-size: 10px;
-}
-
-.font3{
-  font-family: 'Open Sans' !important;
-  font-weight: bold;
-  font-size: 35px !important;
-}
-
-
-.font4{
-  font-family: 'Lora', serif;
-  font-size: 18px !important;
-}
-
-.wrapper {
-  position: absolute;
-  width: 100px;
-  height:100px;
-  margin-left: 5px;
-  margin-top: 5px;
-  overflow: hidden;
-  border-radius:50%;
-  background-color: blue;
-}
-
-.wrapper img {
-  position: absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%)
-}
-
-.temp{
-  height: 0;
-}
-
-.demo-card-square.mdl-card {
-  width: 370px;
-  height: 500px;
-  border-radius:1%;
-}
-.demo-card-square > .mdl-card__title {
-  color: #fff;
-  background-color: #2b303b;
-}
-
-
-.img1 {
-  display: block;
-  max-height:250px;
-  width: auto;
-  height: auto;
+.righthalf{
+  padding-left: 30px;
 }

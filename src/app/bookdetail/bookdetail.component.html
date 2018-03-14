@@ -1,106 +1,94 @@
 <div class="home-box" fxFill fxLayout="row" fxLayoutAlign="center center">
-  <div fxFlex="90" fxFill fxLayout="column">
-
-    <div class="taste-box" fxLayout="column" fxFlex="70" fxFlexOffset="5">
-
-<mat-grid-list fxShow fxHide.lt-sm cols="4" rowHeight="100px">
-  <mat-grid-tile
-    [colspan]="2"
-    [rowspan]="1"
-    [style.background]="'blue'">
-    Bild
-  </mat-grid-tile>
-
-  <mat-grid-tile
-    [colspan]="2"
-    [rowspan]="1"
-    [style.background]="'blue'">
-    Der Pfad des friedvollen Kriegers
-  </mat-grid-tile>
-
-  <mat-grid-tile
-    [colspan]="2"
-    [rowspan]="3"
-    [style.background]="'blue'">
-    Der junge College-Student Dan trifft eines Nachts in einer Tankstelle auf einen seltsamen alten Mann. Dieser Mann, den Dan "Sokrates" nennt, verfügt über wundersame Fähigkeiten und nimmt sich seiner als Lehrmeister an. Sokrates führt Dan auf den sogenannten "Pfad des friedvollen Kriegers", eine innere Reise in die Tiefe seines Herzens. Es ist ein beschwerlicher Weg, an dessen Ende aber ein zufriedenes und erfülltes Leben wartet.
-  </mat-grid-tile>
-
-
-  <mat-grid-tile
-    [colspan]="2"
-    [rowspan]="2"
-    [style.background]="'blue'">
-    Autor blabla
-  </mat-grid-tile>
-
-  <mat-grid-tile
-    [colspan]="2"
-    [rowspan]="1"
-    [style.background]="'blue'">
-    Hashtags
-  </mat-grid-tile>
-
-  <mat-grid-tile
-    [colspan]="4"
-    [rowspan]="1"
-    [style.background]="'blue'">
-    Available on
-  </mat-grid-tile>
-
-</mat-grid-list>
-
-
-      <mat-grid-list fxHide fxShow.lt-sm  cols="1" rowHeight="50px">
-        <mat-grid-tile
-
-          [rowspan]="1"
-          [style.background]="'blue'">
-          dasds
-        </mat-grid-tile>
-
-        <mat-grid-tile
-
-          [rowspan]="1"
-          [style.background]="'blue'">
-          Der Pfad des friedvollen Kriegers
-        </mat-grid-tile>
-
-        <mat-grid-tile
-
-          [rowspan]="4"
-          [style.background]="'blue'">
-          Der junge College-Student Dan trifft eines Nachts in einer Tankstelle auf einen seltsamen alten Mann. Dieser Mann, den Dan "Sokrates" nennt, verfügt über wundersame Fähigkeiten und nimmt sich seiner als Lehrmeister an. Sokrates führt Dan auf den sogenannten "Pfad des friedvollen Kriegers", eine innere Reise in die Tiefe seines Herzens. Es ist ein beschwerlicher Weg, an dessen Ende aber ein zufriedenes und erfülltes Leben wartet.
-        </mat-grid-tile>
-
-
-        <mat-grid-tile
-
-          [rowspan]="2"
-          [style.background]="'blue'">
-          Autor blabla
-        </mat-grid-tile>
-
-        <mat-grid-tile
-
-          [rowspan]="1"
-          [style.background]="'blue'">
-          Hashtags
-        </mat-grid-tile>
-
-        <mat-grid-tile
-
-          [rowspan]="1"
-          [style.background]="'blue'">
-          Available on
-        </mat-grid-tile>
-
-      </mat-grid-list>
+  <div fxFlex="60" fxFlex.lt-lg="80" fxFlex.lt-md="100" fxFill fxLayout="column">
 
 
 
+    <div fxShow fxHide.lt-md fxFlex="40" fxLayout="column" fxFlexOffset="2" class="top-box">
+      <div fxFlex="80" class="taste-box" fxLayout="row">
+      </div>
 
+      <div fxFlex="20" class="title-box" fxLayoutAlign="left center">
+        Der Pfad des friedvollen Kriegers
+      </div>
     </div>
 
 
+    <div fxLayout="row" fxLayout.lt-md="column" fxFlexOffset="3">
 
+      <div  fxLayout.lt-md="row">
+      <div  fxLayout="column">
+        <div>
+          <img class="img1" ngClass.lt-md="img1-md" routerLink="bookdetail" src="https://images.booklooker.de/x/9783778773192/Dan-Millman+Der-Pfad-des-friedvollen-Kriegers.jpg"/>
+        </div>
+      </div>
+<div fxHide fxShow.lt-md  class="title-box-md" fxLayout="column">
+      <div class="fonttitle-md">Der Weg des friedvollen Kriegers</div>
+      <div class="fontyear-md">2018</div>
+      <div  class="fontgenre-md">Drama</div>
+      </div>
+      </div>
+      <div ngClass.gt-md="righthalf" fxLayout="column">
+
+        <div fxShow fxHide.lt-md class="fontyear">2018 Genre</div>
+
+        <div  fxFlexOffset="2" class="desc">
+          <div class="fontdesc" ngClass.lt-md="fontdesc-md">Der junge College-Student Dan trifft eines
+            Nachts in einer Tankstelle auf einen seltsamen alten Mann. Dieser Mann, den Dan "Sokrates" nennt, verfügt
+            über wundersame Fähigkeiten und nimmt sich seiner als Lehrmeister an. Sokrates führt Dan auf den
+            sogenannten "Pfad des friedvollen Kriegers", eine innere Reise in die Tiefe seines Herzens. Es ist ein
+            beschwerlicher Weg, an dessen Ende aber ein zufriedenes und erfülltes Leben wartet.
+          </div>
+        </div>
+
+        <div fxFlexOffset="2"  class="generalinfo">
+          <div class="generalcontent" fxLayout="column">
+            <div fxLayout="row">
+              <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Author:&nbsp;&nbsp;</div>
+              <div ngClass.lt-md="fonttext-md" class="fonttext">Dan Millman</div>
+            </div>
+            <div fxLayout="row">
+              <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Speaker:&nbsp;&nbsp;</div>
+              <div ngClass.lt-md="fonttext-md" class="fonttext">Olaf Pessler</div>
+            </div>
+            <div fxLayout="row">
+              <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Runtime&nbsp;&nbsp;</div>
+              <div ngClass.lt-md="fonttext-md" class="fonttext">08:02:00</div>
+            </div>
+            <div fxLayout="row">
+              <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Published:&nbsp;&nbsp;</div>
+              <div ngClass.lt-md="fonttext-md" class="fonttext">23.10.2008</div>
+            </div>
+          </div>
+        </div>
+
+
+        <div fxFlexOffset="4" class="rating">
+          <div class="generalcontent" fxLayout="column">
+            <div fxLayout="row">
+              <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">User Rating:&nbsp;&nbsp;</div>
+              <ul fxLayout="row">
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+              </ul>
+            </div>
+            <div fxLayout="row">
+              <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Rating Consensus:&nbsp;&nbsp;</div>
+              <div class="fonttext">Olaf Pessler</div>
+            </div>
+            <div fxLayout="row">
+              <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Relistenability:&nbsp;&nbsp;</div>
+              <div class="fonttext">75%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
   </div>
+</div>
+
+
