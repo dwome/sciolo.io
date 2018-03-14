@@ -20,6 +20,39 @@
         <div>
           <img class="img1" ngClass.lt-md="img1-md" routerLink="bookdetail" src="https://images.booklooker.de/x/9783778773192/Dan-Millman+Der-Pfad-des-friedvollen-Kriegers.jpg"/>
         </div>
+
+
+        <div fxFlexOffset="5" fxShow fxHide.lt-md class="availablelist">
+          <div class="availableitem check-available" fxLayout="row">
+            <div class="available-brand">
+              <i class="fab fa-audible fa-2x"></i>
+            </div>
+            <div class="available-status" fxLayout="row" fxLayoutAlign="center center">
+              <div>PLAY</div>
+              <i class="far fa-play-circle"></i>
+            </div>
+          </div>
+          <div class="availableitem check-unavailable" fxLayout="row" fxLayoutAlign="end center">
+            <div class="available-brand">
+              <i class="fab fa-amazon fa-2x"></i>
+            </div>
+            <div class="available-status">
+              Unavailable
+            </div>
+          </div>
+          <div class="availableitem check-unavailable" fxLayout="row" fxLayoutAlign="center center">
+
+            <div class="available-brand">
+              <i class="fab fa-spotify fa-2x"></i>
+            </div>
+            <div class="available-status">
+              Unavailable
+            </div>
+          </div>
+        </div>
+
+
+
       </div>
 <div fxHide fxShow.lt-md  class="title-box-md" fxLayout="column">
       <div class="fonttitle-md">Der Weg des friedvollen Kriegers</div>
@@ -66,17 +99,11 @@
           <div class="generalcontent" fxLayout="column">
             <div fxLayout="row">
               <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">User Rating:&nbsp;&nbsp;</div>
-              <ul fxLayout="row">
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-              </ul>
+
             </div>
             <div fxLayout="row">
               <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Rating Consensus:&nbsp;&nbsp;</div>
-              <div class="fonttext">Olaf Pessler</div>
+              <div class="fonttext">Inspiring</div>
             </div>
             <div fxLayout="row">
               <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Relistenability:&nbsp;&nbsp;</div>
@@ -84,6 +111,23 @@
             </div>
           </div>
         </div>
+
+        <div fxHide fxShow.lt-md fxFlexOffset="4" class="rating">
+          <div class="generalcontent" fxLayout="column">
+            <div fxLayout="row">
+              <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Unavailable</div>
+
+            </div>
+            <div fxLayout="row">
+              <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Unavailable</div>
+            </div>
+            <div fxLayout="row">
+              <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Unavailable</div>
+            </div>
+          </div>
+        </div>
+
+
       </div>
 
 
