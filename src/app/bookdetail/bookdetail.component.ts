@@ -12,13 +12,7 @@ export class BookdetailComponent implements OnInit {
   ngOnInit() {
   }
 
-  tiles = [
-    {text: 'One', cols: 2, rows: 1, color: 'lightblue'},
-    {text: 'Two', cols: 2, rows: 1, color: 'lightgreen'},
-    {text: 'Three', cols: 2, rows: 3, color: 'lightpink'},
-    {text: 'Four', cols: 2, rows: 2, color: '#DDBDF1'},
-    {text: 'Hstag', cols: 2, rows: 1, color: '#DDBDF1'},
-    {text: 'Available', cols: 4, rows: 1, color: '#DDBDF1'},
-  ];
+test = "halloo";
+
 
 }

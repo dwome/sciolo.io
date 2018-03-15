@@ -1,9 +1,10 @@
-<div class="global">
-<mat-toolbar class="header">
-  <mat-toolbar-row>
+<div  class="global">
+<mat-toolbar  class="header"  fxLayoutAlign="center center">
+  <mat-toolbar-row fxLayout="row" fxFlex="70" fxFlex.lt-md="100">
+    
     <span>Sciolo.io</span>
 
-    <button fxShow fxHide.lt-md [routerLink]="['']" mat-button>Home</button>
+    <button fxShow fxHide.lt-md [routerLink]="['']" mat-button="">Home</button>
     <button fxShow fxHide.lt-md [routerLink]="['categories']" mat-button>Categories</button>
 
 
@@ -17,29 +18,25 @@
 
 
     <div fxShow fxHide.lt-sm class="container-3">
-      <span class="icon"><i class="fa fa-search"></i></span>
       <input type="search" id="search" placeholder="Search for Book, Author ..."/>
     </div>
 
     <span class="header-span"></span>
 
-    <div fxShow fxHide.lt-sm class="signup">
-      <button>SignUp</button>
+    <div fxShow fxHide.lt-md class="signup">
+      <button class="headerbutton">Sign In / Sign Up</button>
     </div>
 
-    <div fxShow fxHide.lt-sm class="login">
-      <button>Login</button>
-    </div>
-
-    <div fxHide fxShow.lt-sm  class="mobile_signuplogin">
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-        SignUp/Login
+    <div fxHide fxShow.lt-md  class="mobile_signuplogin">
+      <button class="headerbutton-sm">
+        Login
       </button>
     </div>
 
 
 
   </mat-toolbar-row>
+
 
 </mat-toolbar>
 

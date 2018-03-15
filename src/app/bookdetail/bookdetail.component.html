@@ -1,70 +1,81 @@
 <div class="home-box" fxFill fxLayout="row" fxLayoutAlign="center center">
-  <div fxFlex="60" fxFlex.lt-lg="80" fxFlex.lt-md="100" fxFill fxLayout="column">
+  <div fxFlex="70" fxFlex.lt-lg="80" fxFlex.lt-md="100" fxFill fxLayout="column">
 
 
-
+    <!-- Top, not available on mobile -->
     <div fxShow fxHide.lt-md fxFlex="40" fxLayout="column" fxFlexOffset="2" class="top-box">
       <div fxFlex="80" class="taste-box" fxLayout="row">
       </div>
 
       <div fxFlex="20" class="title-box" fxLayoutAlign="left center">
-        Der Pfad des friedvollen Kriegers
+        <div class="title">
+          Der Pfad des friedvollen Kriegers
+        </div>
       </div>
     </div>
 
 
+    <!-- Image and Title (mobile) -->
     <div fxLayout="row" fxLayout.lt-md="column" fxFlexOffset="3">
 
-      <div  fxLayout.lt-md="row">
-      <div  fxLayout="column">
-        <div>
-          <img class="img1" ngClass.lt-md="img1-md" routerLink="bookdetail" src="https://images.booklooker.de/x/9783778773192/Dan-Millman+Der-Pfad-des-friedvollen-Kriegers.jpg"/>
+      <div fxLayout.lt-md="row" fxFill.lt-md>
+
+
+        <!-- Book Cover and Availability on Desktop -->
+        <div fxLayout="column">
+
+          <!-- Book Cover -->
+          <div>
+            <img class="img1" ngClass.lt-md="img1-md" fxFlex.lt-md="50" routerLink="bookdetail"
+                 src="https://images.booklooker.de/x/9783778773192/Dan-Millman+Der-Pfad-des-friedvollen-Kriegers.jpg"/>
+          </div>
+
+          <!-- availablility on Desktop -->
+          <div fxFlexOffset="5" fxShow fxHide.lt-md class="availablelist">
+            <div class="availableitem check-available" fxLayout="row">
+              <div class="available-brand">
+                <i class="fab fa-audible fa-2x"></i>
+              </div>
+              <div class="available-status" fxLayout="row" fxLayoutAlign="center center">
+                <div>PLAY</div>
+                <i class="far fa-play-circle"></i>
+              </div>
+            </div>
+            <div class="availableitem check-unavailable" fxLayout="row" fxLayoutAlign="end center">
+              <div class="available-brand">
+                <i class="fab fa-amazon fa-2x"></i>
+              </div>
+              <div class="available-status">
+                Unavailable
+              </div>
+            </div>
+            <div class="availableitem check-unavailable" fxLayout="row" fxLayoutAlign="center center">
+
+              <div class="available-brand">
+                <i class="fab fa-spotify fa-2x"></i>
+              </div>
+              <div class="available-status">
+                Unavailable
+              </div>
+            </div>
+          </div>
         </div>
 
 
-        <div fxFlexOffset="5" fxShow fxHide.lt-md class="availablelist">
-          <div class="availableitem check-available" fxLayout="row">
-            <div class="available-brand">
-              <i class="fab fa-audible fa-2x"></i>
-            </div>
-            <div class="available-status" fxLayout="row" fxLayoutAlign="center center">
-              <div>PLAY</div>
-              <i class="far fa-play-circle"></i>
-            </div>
-          </div>
-          <div class="availableitem check-unavailable" fxLayout="row" fxLayoutAlign="end center">
-            <div class="available-brand">
-              <i class="fab fa-amazon fa-2x"></i>
-            </div>
-            <div class="available-status">
-              Unavailable
-            </div>
-          </div>
-          <div class="availableitem check-unavailable" fxLayout="row" fxLayoutAlign="center center">
-
-            <div class="available-brand">
-              <i class="fab fa-spotify fa-2x"></i>
-            </div>
-            <div class="available-status">
-              Unavailable
-            </div>
-          </div>
+        <!-- Title on mobile -->
+        <div fxHide fxShow.lt-md fxFlex="50" class="title-box-md" fxLayout="column">
+          <div class="fonttitle-md">Der Weg des friedvollen Kriegers</div>
+          <div class="fontyear-md">2018</div>
+          <div class="fontgenre-md">Drama</div>
         </div>
+      </div>
 
 
-
-      </div>
-<div fxHide fxShow.lt-md  class="title-box-md" fxLayout="column">
-      <div class="fonttitle-md">Der Weg des friedvollen Kriegers</div>
-      <div class="fontyear-md">2018</div>
-      <div  class="fontgenre-md">Drama</div>
-      </div>
-      </div>
-      <div ngClass.gt-md="righthalf" fxLayout="column">
+      <div ngClass.gt-sm="righthalf" fxLayout="column">
 
         <div fxShow fxHide.lt-md class="fontyear">2018 Genre</div>
 
-        <div  fxFlexOffset="2" class="desc">
+        <div fxFlexOffset="2" class="desc">
           <div class="fontdesc" ngClass.lt-md="fontdesc-md">Der junge College-Student Dan trifft eines
             Nachts in einer Tankstelle auf einen seltsamen alten Mann. Dieser Mann, den Dan "Sokrates" nennt, verfügt
             über wundersame Fähigkeiten und nimmt sich seiner als Lehrmeister an. Sokrates führt Dan auf den
@@ -73,7 +84,7 @@
           </div>
         </div>
 
-        <div fxFlexOffset="2"  class="generalinfo">
+        <div fxFlexOffset="2" class="generalinfo">
           <div class="generalcontent" fxLayout="column">
             <div fxLayout="row">
               <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Author:&nbsp;&nbsp;</div>
@@ -112,17 +123,31 @@
           </div>
         </div>
 
-        <div fxHide fxShow.lt-md fxFlexOffset="4" class="rating">
-          <div class="generalcontent" fxLayout="column">
-            <div fxLayout="row">
-              <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Unavailable</div>
+        <div fxFlexOffset="5" fxHide fxShow.lt-md class="availablelist-md">
+          <div class="availableitem-md check-available" fxLayout="row">
+            <div class="available-brand">
+              <i class="fab fa-audible fa-2x"></i>
+            </div>
+            <div class="available-status" fxLayout="row" fxLayoutAlign="center center">
+              <div>PLAY</div>
+              <i class="far fa-play-circle"></i>
+            </div>
+          </div>
+          <div class="availableitem-md check-unavailable" fxLayout="row" fxLayoutAlign="end center">
+            <div class="available-brand">
+              <i class="fab fa-amazon fa-2x"></i>
+            </div>
+            <div class="available-status">
+              Unavailable
+            </div>
+          </div>
+          <div class="availableitem-md check-unavailable" fxLayout="row" fxLayoutAlign="center center">
 
+            <div class="available-brand">
+              <i class="fab fa-spotify fa-2x"></i>
             </div>
-            <div fxLayout="row">
-              <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Unavailable</div>
-            </div>
-            <div fxLayout="row">
-              <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Unavailable</div>
+            <div class="available-status">
+              Unavailable
             </div>
           </div>
         </div>
