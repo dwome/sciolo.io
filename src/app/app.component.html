@@ -1,44 +1,4 @@
-<div  class="global">
-<mat-toolbar  class="header"  fxLayoutAlign="center center">
-  <mat-toolbar-row fxLayout="row" fxFlex="70" fxFlex.lt-md="100">
-    
-    <span>Sciolo.io</span>
-
-    <button fxShow fxHide.lt-md [routerLink]="['']" mat-button="">Home</button>
-    <button fxShow fxHide.lt-md [routerLink]="['categories']" mat-button>Categories</button>
-
-
-    <span class="header-span"></span>
-
-
-    <div fxHide fxShow.lt-sm class="mobile_search">
-      <input type="search" id="search"/>
-    </div>
-
-
-
-    <div fxShow fxHide.lt-sm class="container-3">
-      <input type="search" id="search" placeholder="Search for Book, Author ..."/>
-    </div>
-
-    <span class="header-span"></span>
-
-    <div fxShow fxHide.lt-md class="signup">
-      <button class="headerbutton">Sign In / Sign Up</button>
-    </div>
-
-    <div fxHide fxShow.lt-md  class="mobile_signuplogin">
-      <button class="headerbutton-sm">
-        Login
-      </button>
-    </div>
-
-
-
-  </mat-toolbar-row>
-
-
-</mat-toolbar>
-
-<router-outlet></router-outlet>
+<div class="global">
+  <app-navbar></app-navbar>
+  <router-outlet></router-outlet>
 </div>

@@ -1,0 +1,75 @@
+<div fxLayoutAlign="center center">
+  <mat-card class="bookcard" fxFlex="60" fxFlex.lt-md="100">
+  <mat-card-header class="testbg">
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Der Pfad des friedvollen Kriegers</mat-card-title>
+    <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+  </mat-card-header>
+  <!--<img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">-->
+  <mat-card-content fxLayout="column">
+
+    <div fxFlexOffset="2" class="desc">
+      <div class="fontdesc" ngClass.lt-md="fontdesc-md">Der junge College-Student Dan trifft eines
+        Nachts in einer Tankstelle auf einen seltsamen alten Mann. Dieser Mann, den Dan "Sokrates" nennt, verfügt
+        über wundersame Fähigkeiten und nimmt sich seiner als Lehrmeister an. Sokrates führt Dan auf den
+        sogenannten "Pfad des friedvollen Kriegers", eine innere Reise in die Tiefe seines Herzens. Es ist ein
+        beschwerlicher Weg, an dessen Ende aber ein zufriedenes und erfülltes Leben wartet.
+      </div>
+    </div>
+
+    <mat-tab-group>
+      <mat-tab class="third" label="What">
+        <ng-template mat-tab-label>
+          <mat-icon>details</mat-icon>
+        </ng-template>
+        <div fxFlexOffset="2" class="generalinfo" fxLayout="row">
+          <div class="generalcontent" fxLayout="column">
+            <div fxLayout="row">
+              <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Author:&nbsp;&nbsp;</div>
+              <div ngClass.lt-md="fonttext-md" class="fonttext">Dan Millman</div>
+            </div>
+            <div fxLayout="row">
+              <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Speaker:&nbsp;&nbsp;</div>
+              <div ngClass.lt-md="fonttext-md" class="fonttext">Olaf Pessler</div>
+            </div>
+            <div fxLayout="row">
+              <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Runtime&nbsp;&nbsp;</div>
+              <div ngClass.lt-md="fonttext-md" class="fonttext">08:02:00</div>
+            </div>
+            <div fxLayout="row">
+              <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Published:&nbsp;&nbsp;</div>
+              <div ngClass.lt-md="fonttext-md" class="fonttext">23.10.2008</div>
+            </div>
+          </div>
+        </div>
+      </mat-tab>
+      <mat-tab class="third" label="rating">
+        <ng-template mat-tab-label>
+          <mat-icon>star_border</mat-icon>
+        </ng-template>
+        <div class="generalcontent" fxLayout="column">
+          <div fxLayout="row">
+            <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">User Rating:&nbsp;&nbsp;</div>
+
+          </div>
+          <div fxLayout="row">
+            <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Rating Consensus:&nbsp;&nbsp;</div>
+            <div class="fonttext">Inspiring</div>
+          </div>
+          <div fxLayout="row">
+            <div fxFlexOffset="2" ngClass.lt-md="fontbold-md" class="fontbold">Relistenability:&nbsp;&nbsp;</div>
+            <div class="fonttext">75%</div>
+          </div>
+        </div>
+      </mat-tab>
+      <mat-tab class="third"  label="streams">
+        <ng-template mat-tab-label>
+          <mat-icon>play_circle_outline</mat-icon>
+        </ng-template>
+        No content
+      </mat-tab>
+    </mat-tab-group>
+
+  </mat-card-content>
+</mat-card>
+</div>

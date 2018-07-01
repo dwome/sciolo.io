@@ -11,13 +11,17 @@ import {HomeComponent} from './home/home.component';
 import {CategoriesComponent} from './categories/categories.component';
 import {FlexLayoutModule} from "@angular/flex-layout";
 import {BookdetailComponent} from './bookdetail/bookdetail.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { BookdetailcardComponent } from './bookdetailcard/bookdetailcard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     CategoriesComponent,
-    BookdetailComponent
+    BookdetailComponent,
+    NavbarComponent,
+    BookdetailcardComponent
   ],
   imports: [
     BrowserModule,

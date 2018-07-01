@@ -1,0 +1,256 @@
+
+.bookcard{
+  margin: 20px;
+}
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+.third{
+  width: 33% !important;
+}
+
+.mat-ripple{
+  width: 33% !important;
+}
+
+.home-box {
+  background-color: rgb(236,236,239);
+  height: 100%;
+  display: flex;
+}
+
+.desc {
+  width: 100%;
+}
+
+.rating {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  box-shadow: 0 1px 2px 0 hsla(0, 0%, 0%, 0.2);
+
+}
+
+.generalinfo {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  box-shadow: 0 1px 2px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.generalcontent {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img1 {
+  display: block;
+  max-height: 350px;
+  width: auto;
+  height: auto;
+}
+
+.img1-md {
+  display: block;
+  max-height: 200px;
+  min-height: 100px;
+  width: auto;
+}
+
+.available {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  box-shadow: 0 1px 2px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.availablelist {
+
+  width: 100%;
+}
+
+.availablelist-md {
+
+  width: 100%;
+
+
+}
+
+.fonttext {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.fonttext-md {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.fontdesc {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: match-parent;
+}
+
+.fontdesc-md {
+  font-family: 'Libre Franklin';
+  font-size: 14px;
+  font-weight: 300;
+  text-align: match-parent;
+}
+
+.fontbold {
+  font-family: 'Libre Franklin';
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.fontbold-md {
+  font-family: 'Libre Franklin';
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.fontyear {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.taste-box {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.7) 100%), url(/assets/pic/books.jpg);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  color: white;
+  font-family: 'Lato';
+  font-size: 48px;
+}
+
+.title-box {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  box-shadow: 0 1px 2px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.top-box {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  box-shadow: 0 1px 2px 0 hsla(0, 0%, 0%, 0.2);
+
+}
+
+.title-box-md {
+  padding-left: 10px;
+}
+
+.fonttitle-md {
+  font-family: 'Libre Franklin';
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.fontyear-md {
+  font-family: 'Libre Franklin';
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.fontgenre-md {
+  font-family: 'Libre Franklin';
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.righthalf {
+  padding-left: 30px;
+}
+
+.spanner {
+  flex: 1 1 auto;
+}
+
+.available-status {
+  width: 50%;
+  text-align: right;
+  margin-right:10%;
+  font-family: 'Libre Franklin';
+  font-weight: 700;
+  font-size: 13px;
+
+}
+
+.available-brand {
+  width: 50%;
+  margin-left: 10%;
+}
+
+.available-item {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.availableitem {
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-color: white;
+  border: 1.5px solid;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.availableitem-md {
+  width: 80%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-color: white;
+  border: 1.5px solid;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+.check-available{
+  border-color: rgb(248,38,4);
+}
+
+.check-unavailable{
+  border-color: grey;
+  background-color: rgb(236, 236, 239);
+  text-align:
+}
+
+.title{
+  margin-left: 20px;
+  font-family: 'Libre Franklin';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+
+.mat-card-header{
+  background-color: #262626;
+}
+
+
+.mat-card{
+  padding: 0px !important;
+}
+
+.mat-card-content {
+  padding: 14px;
+}
+
+
